@@ -70,7 +70,31 @@ box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
 }
 
 .signup {
-padding: -35px;	
+padding: 0px;	
+}
+
+.btn-logo {
+	float:right;
+	margin: 10px 20px;	
+	color: white;
+	padding: 10px 30px 10px 30px;
+	font-size:20px;
+
+	background-color: #00c6ff;
+  	*background-color: #124e64;
+  	background-image: -moz-linear-gradient(top, #00c6ff, #124e64);
+  	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#00c6ff), to(#124e64));
+  	background-image: -webkit-linear-gradient(top, #00c6ff, #124e64);
+  	background-image: -o-linear-gradient(top, #00c6ff, #124e64);
+  	background-image: linear-gradient(to bottom, #00c6ff, #124e64);
+	
+	border-bottom-color:#0e3c4d;
+}
+
+.btn-logo:hover {
+	color:white;
+  	background-color: #124e64;
+  	*background-color: #00c6ff;
 }
 
 @media (max-width: 980px) {
